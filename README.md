@@ -1,4 +1,4 @@
-Breast Cancer Prediction System using Machine Learning
+## Breast Cancer Prediction System using Machine Learning
 📌 Project Overview
 
 The Breast Cancer Prediction System is a machine learning–based web application developed using Flask and a Support Vector Machine (SVM) classifier.
@@ -78,14 +78,14 @@ Model: Support Vector Machine (SVM)
 
 🏗️ Project Structure
 project/
-│
-├── app.py
-├── README.md
-├── templates/
-│   ├── index.html
-│   └── result.html
-└── static/
-    └── style.css (optional)
+ -│
+- ├── app.py
+- ├── README.md
+- ├── templates/
+- │   ├── index.html
+- │   └── result.html
+- └── static/
+     └── style.css (optional)
 
 
 
