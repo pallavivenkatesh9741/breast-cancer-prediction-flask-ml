@@ -1,12 +1,12 @@
-###  Breast Cancer Prediction System using Machine Learning
-## 📌 Project Overview
+##  Breast Cancer Prediction System using Machine Learning
+### 📌 Project Overview
 
 The Breast Cancer Prediction System is a machine learning–based web application developed using Flask and a Support Vector Machine (SVM) classifier.
 It predicts the likelihood of breast cancer (benign or malignant) based on important diagnostic features entered by the user through a web interface.
 
 This project demonstrates an end-to-end machine learning workflow, including data preprocessing, hyperparameter tuning, model training, and deployment using Flask.
 
-## 🎯 Objective
+### 🎯 Objective
 
 The objective of this project is to:
 
@@ -16,13 +16,13 @@ Assist in early detection and awareness
 
 Demonstrate the deployment of an optimized ML model using Flask
 
-## 🧠 Machine Learning Model
+### 🧠 Machine Learning Model
 
 Algorithm: Support Vector Machine (SVM)
 
 Optimization: GridSearchCV with Stratified K-Fold Cross Validation
 
-# Why SVM?
+#### Why SVM?
 
 Effective for high-dimensional data
 
@@ -30,7 +30,7 @@ Performs well on medical classification problems
 
 Robust decision boundaries
 
-# Model Evaluation Techniques:
+#### Model Evaluation Techniques:
 
 Stratified K-Fold Cross Validation
 
@@ -38,11 +38,11 @@ Probability-based prediction
 
 Hyperparameter tuning (C, gamma, kernel)
 
-##  📊 Dataset Description
+###  📊 Dataset Description
 
 The dataset is loaded from Scikit-learn’s Breast Cancer Wisconsin dataset.
 
-# Input Features (User Inputs – 5 Features):
+#### Input Features (User Inputs – 5 Features):
 
 mean radius
 
@@ -56,7 +56,7 @@ mean smoothness
 
 (The model internally uses all 30 features; missing features are filled with default values.)
 
-# Target Variable:
+#### Target Variable:
 
 0 → Malignant (High Risk of Breast Cancer)
 
