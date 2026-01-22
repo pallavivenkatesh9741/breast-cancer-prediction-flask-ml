@@ -1,62 +1,62 @@
 Breast Cancer Prediction System using Machine Learning
 📌 Project Overview
 
-The Breast Cancer Prediction System is a machine learning–based web application developed using Flask and a Support Vector Machine (SVM) Classifier.
-It predicts the likelihood of breast cancer based on key clinical attributes provided by the user through a web interface.
+The Breast Cancer Prediction System is a machine learning–based web application developed using Flask and a Support Vector Machine (SVM) classifier.
+It predicts the likelihood of breast cancer (benign or malignant) based on important diagnostic features entered by the user through a web interface.
 
-This project demonstrates an end-to-end machine learning workflow, from data preprocessing and model training to deployment as a web application.
+This project demonstrates an end-to-end machine learning workflow, including data preprocessing, hyperparameter tuning, model training, and deployment using Flask.
 
 🎯 Objective
 
 The objective of this project is to:
 
-Predict the risk of breast cancer using clinical features
+Predict the risk of breast cancer using medical diagnostic measurements
 
-Assist in early detection and risk assessment
+Assist in early detection and awareness
 
-Showcase practical deployment of ML models using Flask
+Demonstrate the deployment of an optimized ML model using Flask
 
 🧠 Machine Learning Model
 
-Algorithm: Support Vector Machine (SVM) Classifier
+Algorithm: Support Vector Machine (SVM)
 
-Reason for Selection:
+Optimization: GridSearchCV with Stratified K-Fold Cross Validation
 
-Effective in high-dimensional spaces
+Why SVM?
 
-Handles binary classification well
+Effective for high-dimensional data
 
-Provides probability estimates for risk assessment
+Performs well on medical classification problems
 
-Model Evaluation Metrics:
+Robust decision boundaries
 
-Accuracy Score
+Model Evaluation Techniques:
 
-Confusion Matrix
+Stratified K-Fold Cross Validation
 
-Classification Report
+Probability-based prediction
 
-Probability-based prediction for risk level
+Hyperparameter tuning (C, gamma, kernel)
 
 📊 Dataset Description
 
-The dataset is the Breast Cancer dataset from scikit-learn, containing multiple clinical and cellular attributes commonly used for breast cancer diagnosis.
+The dataset is loaded from Scikit-learn’s Breast Cancer Wisconsin dataset.
 
-Selected Features (used in the app):
+Input Features (User Inputs – 5 Features):
 
-mean radius – Mean of distances from center to points on the perimeter
+mean radius
 
-mean texture – Standard deviation of gray-scale values
+mean texture
 
-mean perimeter – Mean of perimeter measurements
+mean perimeter
 
-mean area – Mean of area measurements
+mean area
 
-mean smoothness – Mean of local smoothness of the cell nuclei
+mean smoothness
+
+(The model internally uses all 30 features; missing features are filled with default values.)
 
 Target Variable:
-
-target
 
 0 → Malignant (High Risk of Breast Cancer)
 
@@ -68,15 +68,17 @@ Language: Python
 
 Web Framework: Flask
 
-Machine Learning: Scikit-learn (SVM with GridSearchCV)
+Machine Learning: Scikit-learn
 
-Data Handling: NumPy, Pandas
+Numerical Computing: NumPy
 
 Frontend: HTML (Jinja2 Templates)
 
 Model: Support Vector Machine (SVM)
 
 🏗️ Project Structure
+project/
+│
 ├── app.py
 ├── README.md
 ├── templates/
@@ -84,3 +86,6 @@ Model: Support Vector Machine (SVM)
 │   └── result.html
 └── static/
     └── style.css (optional)
+
+
+
