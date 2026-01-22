@@ -64,6 +64,7 @@ mean smoothness
 0 → Malignant (High Risk of Breast Cancer)
 
 1 → Benign (Low Risk of Breast Cancer)
+___
 
 ### ⚙️ Technology Stack
 
@@ -78,6 +79,7 @@ Numerical Computing: NumPy
 Frontend: HTML (Jinja2 Templates)
 
 Model: Support Vector Machine (SVM)
+___
 
 ### 🏗️ Project Structure
 project/
