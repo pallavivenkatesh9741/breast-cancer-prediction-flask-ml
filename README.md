@@ -26,13 +26,13 @@ Algorithm: Support Vector Machine (SVM)
 
 Optimization: GridSearchCV with Stratified K-Fold Cross Validation
 
- #### Why SVM?
+ #### * Why SVM?
 
   Effective for high-dimensional data
   Performs well on medical classification problems
   Robust decision boundaries
 
-   #### Model Evaluation Techniques:
+  #### *Model Evaluation Techniques:
 
 Stratified K-Fold Cross Validation
 
@@ -45,7 +45,7 @@ ___
 
 The dataset is loaded from Scikit-learn’s Breast Cancer Wisconsin dataset.
 
-#### Input Features (User Inputs – 5 Features):
+#### *Input Features (User Inputs – 5 Features):
 
 mean radius
 
@@ -59,7 +59,7 @@ mean smoothness
 
 (The model internally uses all 30 features; missing features are filled with default values.)
 
-#### Target Variable:
+#### *Target Variable:
 
 0 → Malignant (High Risk of Breast Cancer)
 
