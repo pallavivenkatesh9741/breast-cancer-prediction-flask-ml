@@ -17,6 +17,7 @@ Predict the risk of breast cancer using medical diagnostic measurements
 Assist in early detection and awareness
 
 Demonstrate the deployment of an optimized ML model using Flask
+___
 
 ### 🧠 Machine Learning Model
 
@@ -39,6 +40,7 @@ Stratified K-Fold Cross Validation
 Probability-based prediction
 
 Hyperparameter tuning (C, gamma, kernel)
+___
 
 ###  📊 Dataset Description
 
